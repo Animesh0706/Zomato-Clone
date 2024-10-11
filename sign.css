@@ -1,0 +1,148 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e50914;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #ffe0e0;
+}
+
+/* Sign-Up Form Section */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url('img/signup-bg.png'); /* Background image for signup */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.signup-form h2 {
+    font-size: 32px;
+    color: #e50914;
+    margin-bottom: 30px;
+}
+
+.signup-form form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-form .input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.signup-form .input-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.signup-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e50914;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-form .input-group input:focus {
+    border-color: #b20710;
+    outline: none;
+}
+
+.signup-form small {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    visibility: hidden;
+}
+
+.signup-form button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+    background-color: #b20710;
+}
+
+.signup-form p {
+    margin-top: 20px;
+}
+
+.signup-form p a {
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-form p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e50914;
+    color: white;
+    font-size: 14px;
+}
