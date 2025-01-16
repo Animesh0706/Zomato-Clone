@@ -1,0 +1,190 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e50914;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    background-color: #b20710;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('img/investor-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* About Investor Relations */
+.about-investor-relations {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-investor-relations h2 {
+    font-size: 36px;
+    color: #e50914;
+    margin-bottom: 30px;
+}
+
+.about-investor-relations p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Financial Highlights */
+.financial-highlights {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.financial-highlights h2 {
+    font-size: 36px;
+    color: #e50914;
+    margin-bottom: 40px;
+}
+
+.highlight-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+    transform: scale(1.05);
+}
+
+.highlight-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlight-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.highlight-card a {
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.highlight-card a:hover {
+    color: #b20710;
+}
+
+/* Press Releases */
+.press-releases {
+    padding: 50px;
+    text-align: center;
+}
+
+.press-releases h2 {
+    font-size: 36px;
+    color: #e50914;
+    margin-bottom: 30px;
+}
+
+.press-releases ul {
+    list-style: none;
+}
+
+.press-releases ul li {
+    margin: 15px 0;
+}
+
+.press-releases ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.press-releases ul li a:hover {
+    color: #e50914;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e50914;
+    color: white;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .highlight-card {
+        width: 100%;
+    }
+}
